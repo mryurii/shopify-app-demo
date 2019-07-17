@@ -16,3 +16,8 @@ Required env variables:
 - SHOPIFY_API_KEY
 - SHOPIFY_API_SECRET
 - NGROK_HOST
+
+Development:
+- Start ngrok
+- `rails db:setup`
+- `rails s`
