@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby 2.6.3
+* Rails 6.0.0.rc1
+* Yarn 1.17.3
+* Posgresql > 9.3
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Create DB container `docker run -d -p 60023:5432 --name shopify_app_demo -e POSTGRES_PASSWORD=shopify_app_demo postgres
+`
+Usage:
+- `docker start shopify_app_demo`
+- `docker stop shopify_app_demo`
