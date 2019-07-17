@@ -11,3 +11,8 @@ Create DB container `docker run -d -p 60023:5432 --name shopify_app_demo -e POST
 Usage:
 - `docker start shopify_app_demo`
 - `docker stop shopify_app_demo`
+
+Required env variables:
+- SHOPIFY_API_KEY
+- SHOPIFY_API_SECRET
+- NGROK_HOST
